@@ -16,7 +16,7 @@ use pocketmine\block\Block;
 class RD extends PluginBase implements Listener{
     
     public function onEnable(){
-        $this->getLogger()->info("Plugin Random Ore Make by Řā Şø and edit for SPC by HeoGM");
+        $this->getLogger()->info("Plugin Random Ore Make by StrafelessPvP");
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
     }
     
