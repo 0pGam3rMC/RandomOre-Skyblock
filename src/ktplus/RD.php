@@ -48,7 +48,5 @@ class RD extends PluginBase implements Listener{
         $b->getLevel()->setBlock($block,Block::get($array[array_rand($array)]));
         return true;
 }else{ return false;}
-    }
-}
-
-
+       
+       }
